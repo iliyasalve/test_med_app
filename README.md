@@ -8,4 +8,4 @@ To run the project locally, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/iliyasalve/grihf-frontend_capstone_starter_code.git
+   git clone https://github.com/iliyasalve/test_med_app.git
