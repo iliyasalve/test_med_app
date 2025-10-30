@@ -1,0 +1,63 @@
+.review-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.review-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input, .form-group textarea, .form-group select {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.warning {
+    color: red;
+    margin-bottom: 10px;
+}
+
+.submitted-message {
+    margin-top: 20px;
+}
+
+.submit-button, .close-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.submit-button:hover, .close-button:hover {
+    background-color: #0056b3;
+}
+
+/* Add styles for the star rating */
+.rating {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}

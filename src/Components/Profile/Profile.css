@@ -1,0 +1,92 @@
+/* Profile.css */
+
+/* 全局样式 */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Profile container */
+.profile-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+/* ProfileCard 样式 */
+.profile-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: box-shadow 0.3s ease;
+}
+
+.profile-card:hover {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.profile-card__info {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* ProfileForm 样式 */
+.profile-container form {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 400px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-container label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.profile-container input[type="text"],
+.profile-container input[type="email"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.profile-container button {
+    background-color: #2190FF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-right: 10px;
+}
+
+.profile-container button:hover {
+    background-color: #1a7fd3;
+}
+
+.profile-container .profile-details {
+    text-align: center;
+}
+
+.profile-container .profile-details h1 {
+    margin-bottom: 20px;
+}
+
+.profile-container .profile-details p {
+    margin: 10px 0;
+}
